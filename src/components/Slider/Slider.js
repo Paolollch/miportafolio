@@ -1,9 +1,8 @@
 import React from "react";
 import "./Slider.css";
-import imagen1 from './desarrollo-web.png'
-import imagen2 from './ImagenSlider1.png'
-import Animation from './AnimationHola/Animation'
-import Logo from './Icon/Logo' 
+import Animation from './Animation/Animation';
+import Logo from './Icon/Logo';
+import ButtonSlider from './ButtonSlider/ButtonSlider';
 
 function Slider(){
     return(
@@ -23,6 +22,7 @@ function Slider(){
                         <Animation></Animation>
                     </div>
                     <div className="bottom">
+                        <ButtonSlider texto={"Conoceme"}></ButtonSlider>
                     </div>                         
                 </div>
             </div>
