@@ -22,7 +22,7 @@ function Slider(){
                         <Animation></Animation>
                     </div>
                     <div className="bottom">
-                        <ButtonSlider texto={"Conoceme"}></ButtonSlider>
+                        <ButtonSlider texto={"About me"}></ButtonSlider>
                     </div>                         
                 </div>
             </div>

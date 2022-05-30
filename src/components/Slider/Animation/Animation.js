@@ -5,7 +5,7 @@ export default function Animation(){
     return(
         <>
         <div className="wrapper">
-        <div className="static-txt">Hola soy</div>
+        <div className="static-txt">Hi! I'm</div>
         <ul className="dynamic-txts">
             <li><span>Paolo.</span></li>
             <li><span>Developer.</span></li>
