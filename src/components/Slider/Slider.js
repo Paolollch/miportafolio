@@ -28,6 +28,7 @@ function Slider(){
                 <div className="column">
                     <div className="circle">
                         <Logo width='100%' height='100%' viewBox='0 0 750 600'/>
+                        {/* {logo && <Logo width='100%' height='100%' viewBox='0 0 750 600'/>} */}
                     </div>
                     
                     {/* <div className="circle">
@@ -36,10 +37,10 @@ function Slider(){
                 </div>
                 <div className="column">
                     <div className="top">
-                        <Animation className="Animation"/>
+                        {logo && <Animation className="Animation"/>}
                     </div>
                     <div className="bottom">
-                        {logo && <ButtonSlider >About me</ButtonSlider>}
+                        <ButtonSlider >About me</ButtonSlider>
                     </div>                         
                 </div>
             </div>
