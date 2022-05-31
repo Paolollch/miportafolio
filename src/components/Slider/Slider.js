@@ -2,9 +2,25 @@ import React, { useState, useEffect } from "react";
 import "./Slider.css";
 import Animation from './Animation/Animation';
 import Logo from './Icon/Logo';
-import ButtonSlider from './ButtonSlider/ButtonSlider';
+import {ButtonSlider} from './ButtonSlider/ButtonSlider';
 
 function Slider(){
+
+    const [logo, setlogo]= useState(true);
+
+    const showlogo = () => {
+        if (window.innerWidth <= 600) {
+          setlogo(false);
+        } else {
+          setlogo(true);
+        }
+      };
+    
+      useEffect(() => {
+        showlogo();
+      }, []);
+    
+      window.addEventListener('resize', showlogo);
 
     return(
         <>
@@ -23,7 +39,7 @@ function Slider(){
                         <Animation className="Animation"/>
                     </div>
                     <div className="bottom">
-                        <ButtonSlider texto={"About me"}></ButtonSlider>
+                        {logo && <ButtonSlider >About me</ButtonSlider>}
                     </div>                         
                 </div>
             </div>

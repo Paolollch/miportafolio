@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 
 
 
-export default function ButtonSlider({texto}){
+export const ButtonSlider= ({children}) => {
 
     return(
     <>
         <Link to="/About_me">
             <button className="bn632-hover bn20">
-            {texto}
-        </button>
+            {children}
+            </button>
         </Link>
     </>
     );
