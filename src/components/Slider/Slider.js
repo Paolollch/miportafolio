@@ -7,6 +7,7 @@ import {ButtonSlider} from './ButtonSlider/ButtonSlider';
 function Slider(){
 
     const [logo, setlogo]= useState(true);
+    const view = ['0 0 750 600', '0 0 770 600']
 
     const showlogo = () => {
         if (window.innerWidth <= 600) {
@@ -27,7 +28,7 @@ function Slider(){
             <div className="container">
                 <div className="column">
                     <div className="circle">
-                        <Logo width='100%' height='100%' viewBox='0 0 750 600'/>
+                        <Logo width='100%' height='100%' viewBox={logo? view[0] : view[1]}/>
                         {/* {logo && <Logo width='100%' height='100%' viewBox='0 0 750 600'/>} */}
                     </div>
                     
