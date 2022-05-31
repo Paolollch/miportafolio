@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Slider.css";
 import Animation from './Animation/Animation';
 import Logo from './Icon/Logo';
 import ButtonSlider from './ButtonSlider/ButtonSlider';
 
 function Slider(){
+
     return(
         <>
             <div className="container">
@@ -19,7 +20,7 @@ function Slider(){
                 </div>
                 <div className="column">
                     <div className="top">
-                        <Animation></Animation>
+                        <Animation className="Animation"/>
                     </div>
                     <div className="bottom">
                         <ButtonSlider texto={"About me"}></ButtonSlider>
