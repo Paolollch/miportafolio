@@ -4,14 +4,7 @@
   /* background-image: linear-gradient(to top, #dfe9f3 0%, white 100%); */
   background-color: #fff;
   position:absolute;
-
 }
-
-/* .container::after{
-    content: "";
-    display: table;
-    clear: both;
-} */
 
 .column{
   float: left;
@@ -52,7 +45,17 @@
   display: flex;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 1250px) {
+
+  .top{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+  }
+
   .column {
     width: 100%;
     min-height: 0%;
@@ -68,7 +71,7 @@
 
   .circle{
     margin: 3% 0 3% 0;
-    width: 90%;
+    width: 350px;
     height: 350px;
   }
 

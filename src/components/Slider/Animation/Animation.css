@@ -51,12 +51,13 @@
 }
 
 
-@media(max-width: 600px) {
+@media(max-width: 960px) {
   .wrapper .static-txt{
     color: #000;
     font-size: 100px;
     font-weight: 400;
     text-align: center;
+    width: 100%;
   }
   .wrapper .dynamic-txts{
     height: 140px;
