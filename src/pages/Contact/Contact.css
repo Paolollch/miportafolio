@@ -103,7 +103,7 @@ p{
     padding-left: 20px;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 960px) {
 
     .containerContact{
       min-height: calc(100% + 0px);
