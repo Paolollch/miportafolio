@@ -10,7 +10,7 @@ export function Aboutme(){
         <>
             <div className="containerAbout">
                 <div className="columnAboutL">
-                    <ProfileIcon width='70%' height='70%' viewBox='0 0 900 900'/>
+                    <ProfileIcon width='70%' height='100%' viewBox='0 0 900 790'/>
                 </div>
                 <div className="columnAboutR">
                     <h1 className="Title">About me:</h1>

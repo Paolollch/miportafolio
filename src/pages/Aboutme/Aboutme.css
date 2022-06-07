@@ -39,13 +39,14 @@
       /* height: 20em; */
       justify-content: center;
       align-items: center;
-      padding-bottom: 20px;
+      
   }
 
   .CardAbout p{
       margin-top: 20px;
-      margin: 20px 0 0 2px;
+      margin: 0 0 0 2px;
       font-weight: normal;
+      color: black;
   }
 
   @media(max-width: 600px) {
