@@ -106,7 +106,7 @@ p{
 @media(max-width: 960px) {
 
     .containerContact{
-      min-height: calc(100% + 0px);
+      min-height: 950px;
       /* min-height: 100% ; */
      }
     }
