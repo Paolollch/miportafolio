@@ -32,8 +32,10 @@ function Contact() {
             </form>
             <p>Or you can use:</p>
             <div className='IconContainer'>
-            <Whatsapp height="50px"/>
-            <a href="https://www.linkedin.com/in/paolo-llamoza-6b5523178/">
+            <a href="https://wa.link/l9bxp9" target="_blank">
+                <Whatsapp height="50px"/>
+            </a>
+            <a href="https://www.linkedin.com/in/paolo-llamoza-6b5523178/" target="_blank">
                 <LinkedIn height="50px" className="iconLinkedIn"/>
             </a>
             </div>
