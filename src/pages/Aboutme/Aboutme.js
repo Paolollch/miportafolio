@@ -8,8 +8,7 @@ export function Aboutme(){
 
     return(
         <>
-            <div className="containerAbout">
-                <div className="Background">
+            <div className="containerAbout">\
                 <div className="columnAboutL">
                     <ProfileIcon width='70%' height='100%' viewBox='0 0 900 790'/>
                 </div>
@@ -21,7 +20,6 @@ export function Aboutme(){
                         </p>
                     </div>
                     <ButtonSlider>My skills</ButtonSlider>
-                </div>
                 </div>
             </div>
         </>
