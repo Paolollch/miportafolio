@@ -14,7 +14,6 @@
   z-index: 3;
   position: fixed;
   width: 100%;
-  /* border-bottom: 2px solid #7f00b2; */
 }
 
 .navbar-container {
@@ -65,11 +64,6 @@
   padding: 0.5rem 1rem;
   height: 100%; 
 }
-
-/* .nav-links:hover {
-  border-bottom: 4px solid #fff;
-  transition: all 0.2s ease-out;
-} */
 
 .fa-bars {
   color: #7f00b2;

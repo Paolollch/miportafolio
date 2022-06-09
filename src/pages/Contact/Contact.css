@@ -9,13 +9,6 @@
     justify-content: center;
     display: flex;
     padding-top: 100px;
-    /* display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; */
-    /* top: 0;
-    left: 0; 
-    right: 0;
-    bottom: 0; */
 }
 
 h1{
@@ -26,16 +19,12 @@ h1{
 
 .containerForm{
     border-radius: 2%;
-    /* border: 3px solid #7f00b2; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    /* width: 80%; */
     padding: 10px;
     justify-content: center;
     align-items: center;
-    
-    /* background-color: #fff; */
 }
 
 form{   
@@ -112,18 +101,6 @@ p{
 }
 
 @media(max-width: 960px) {
-
-    .containerContact{
-        /* position: absolute;
-        top: 90px; */
-        /* padding-top: 90px; */
-    }
-    
-    .containerForm{
-      /* min-height: 950px; */
-      /* min-height: 100% ; */
-
-    }
 
     .inputForm{
     border-radius: 20px;
