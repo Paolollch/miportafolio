@@ -66,6 +66,10 @@
   }
 
 
+  .buttonMySkills{
+    margin-bottom: 20px;
+  }
+
   /* @media(max-width: 960px) {
     .containerAbout{
       top: 90px;
