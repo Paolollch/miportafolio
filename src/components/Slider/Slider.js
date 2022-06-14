@@ -7,7 +7,7 @@ import {ButtonSlider} from './ButtonSlider/ButtonSlider';
 function Slider(){
 
     const [logo, setlogo]= useState(true);
-    const view = ['81 0 600 600', '0 0 770 600']
+    const view = ['81 0 600 600', '40 0 600 900']
 
     const showlogo = () => {
         if (window.innerWidth <= 600) {
